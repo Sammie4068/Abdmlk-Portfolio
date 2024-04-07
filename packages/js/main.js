@@ -1,4 +1,4 @@
-   AOS.init();
+AOS.init();
 
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
@@ -235,3 +235,12 @@ document
     window.location.href = mailtoLink;
   });
 
+const emailRedirect = document.getElementById("email_redirect");
+emailRedirect.addEventListener("click", () => {
+  window.location.href = "mailto:abdmlk.911@gmail.com";
+});
+
+const callDial = document.getElementById("call_dial");
+callDial.addEventListener("click", () => {
+  window.location.href = "tel:+2347081623168";
+});

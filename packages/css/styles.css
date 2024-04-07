@@ -1340,3 +1340,11 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+#call_dial, #email_redirect {
+  cursor: pointer;
+}
+
+#call_dial:hover, #email_redirect:hover {
+  transform: scale(1.05);
+}
